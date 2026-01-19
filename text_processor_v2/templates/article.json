@@ -1,0 +1,75 @@
+{
+  "name": "标准文章排版",
+  "description": "报刊杂志文章标准格式，美观易读",
+  "page_setup": {
+    "margin_top": 72,
+    "margin_bottom": 72,
+    "margin_left": 90,
+    "margin_right": 90,
+    "paper_size": "A4"
+  },
+  "title": {
+    "font_size": 22,
+    "font_name_cn": "黑体",
+    "font_name_en": "Arial",
+    "bold": true,
+    "alignment": "center",
+    "space_after": 30,
+    "space_before": 0
+  },
+  "subtitle": {
+    "font_size": 14,
+    "font_name_cn": "楷体",
+    "font_name_en": "Times New Roman",
+    "italic": true,
+    "alignment": "center",
+    "space_after": 20
+  },
+  "heading1": {
+    "font_size": 18,
+    "font_name_cn": "黑体",
+    "font_name_en": "Arial",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 24,
+    "space_after": 12,
+    "first_line_indent": 0
+  },
+  "heading2": {
+    "font_size": 16,
+    "font_name_cn": "黑体",
+    "font_name_en": "Arial",
+    "bold": false,
+    "alignment": "left",
+    "space_before": 18,
+    "space_after": 6,
+    "first_line_indent": 0
+  },
+  "heading3": {
+    "font_size": 14,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 12,
+    "space_after": 6,
+    "first_line_indent": 0
+  },
+  "body": {
+    "font_size": 12,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "justify",
+    "line_spacing": 1.5,
+    "space_before": 0,
+    "space_after": 0,
+    "first_line_indent": 28,
+    "character_spacing": 0
+  },
+  "metadata": {
+    "author": "作者",
+    "category": "文章",
+    "version": "1.0",
+    "create_date": "2024-01-15"
+  }
+}

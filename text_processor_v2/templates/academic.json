@@ -1,0 +1,102 @@
+{
+  "name": "学术论文格式",
+  "description": "学术期刊论文标准格式，符合GB/T 7714规范",
+  "page_setup": {
+    "margin_top": 25.4,
+    "margin_bottom": 25.4,
+    "margin_left": 31.8,
+    "margin_right": 31.8,
+    "paper_size": "A4"
+  },
+  "title": {
+    "font_size": 16,
+    "font_name_cn": "黑体",
+    "font_name_en": "Times New Roman",
+    "bold": true,
+    "alignment": "center",
+    "space_after": 20,
+    "space_before": 0
+  },
+  "author_info": {
+    "font_size": 11,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "center",
+    "space_after": 30
+  },
+  "abstract": {
+    "font_size": 10,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "bold_title": true,
+    "alignment": "justify",
+    "space_before": 0,
+    "space_after": 20,
+    "first_line_indent": 0
+  },
+  "keywords": {
+    "font_size": 10,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "bold_title": true
+  },
+  "heading1": {
+    "font_size": 14,
+    "font_name_cn": "黑体",
+    "font_name_en": "Times New Roman",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 24,
+    "space_after": 12,
+    "first_line_indent": 0,
+    "numbering": "1"
+  },
+  "heading2": {
+    "font_size": 12,
+    "font_name_cn": "黑体",
+    "font_name_en": "Times New Roman",
+    "bold": false,
+    "alignment": "left",
+    "space_before": 18,
+    "space_after": 6,
+    "first_line_indent": 0,
+    "numbering": "1.1"
+  },
+  "heading3": {
+    "font_size": 10.5,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 12,
+    "space_after": 6,
+    "first_line_indent": 0,
+    "numbering": "1.1.1"
+  },
+  "body": {
+    "font_size": 10.5,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "justify",
+    "line_spacing": 1.25,
+    "space_before": 0,
+    "space_after": 0,
+    "first_line_indent": 21,
+    "character_spacing": 0
+  },
+  "reference": {
+    "font_size": 10.5,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "left",
+    "line_spacing": 1.25,
+    "first_line_indent": 0,
+    "hanging_indent": 21
+  },
+  "metadata": {
+    "author": "作者",
+    "category": "学术论文",
+    "version": "1.0",
+    "standard": "GB/T 7714"
+  }
+}

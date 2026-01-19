@@ -1,0 +1,75 @@
+{
+  "name": "书籍章节",
+  "description": "书籍章节排版，适合长篇内容",
+  "page_setup": {
+    "margin_top": 72,
+    "margin_bottom": 72,
+    "margin_left": 108,
+    "margin_right": 72,
+    "paper_size": "A4"
+  },
+  "title": {
+    "font_size": 24,
+    "font_name_cn": "方正小标宋",
+    "font_name_en": "Georgia",
+    "bold": true,
+    "alignment": "center",
+    "space_after": 36,
+    "space_before": 72
+  },
+  "chapter_title": {
+    "font_size": 20,
+    "font_name_cn": "黑体",
+    "font_name_en": "Georgia",
+    "bold": true,
+    "alignment": "center",
+    "space_before": 48,
+    "space_after": 24
+  },
+  "heading1": {
+    "font_size": 18,
+    "font_name_cn": "黑体",
+    "font_name_en": "Georgia",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 30,
+    "space_after": 15,
+    "first_line_indent": 0
+  },
+  "heading2": {
+    "font_size": 16,
+    "font_name_cn": "楷体",
+    "font_name_en": "Georgia",
+    "bold": false,
+    "italic": true,
+    "alignment": "left",
+    "space_before": 24,
+    "space_after": 12,
+    "first_line_indent": 0
+  },
+  "body": {
+    "font_size": 12,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "justify",
+    "line_spacing": 1.4,
+    "space_before": 0,
+    "space_after": 0,
+    "first_line_indent": 28,
+    "character_spacing": 0
+  },
+  "first_paragraph": {
+    "font_size": 12,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "justify",
+    "line_spacing": 1.4,
+    "first_line_indent": 0,
+    "space_after": 15
+  },
+  "metadata": {
+    "author": "",
+    "category": "书籍章节",
+    "version": "1.0"
+  }
+}

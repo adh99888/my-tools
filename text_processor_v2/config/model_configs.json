@@ -1,0 +1,54 @@
+{
+  "deepseek": {
+    "name": "DeepSeek Chat",
+    "api_base": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "max_tokens": 8192,
+    "provider": "deepseek"
+  },
+  "kimi": {
+    "name": "kimi-k2",
+    "api_base": "https://api.moonshot.cn/v1",
+    "model": "kimi-k2-turbo-preview",
+    "api_key": "sk-PnGfpmQajXk6Igxp3CBlvcVOJ4WrTPn0nQ9I5tDZwFS2ymsA",
+    "max_tokens": 65536,
+    "provider": "moonshot"
+  },
+  "qwen": {
+    "name": "通义千问",
+    "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "model": "qwen-max",
+    "max_tokens": 32768,
+    "provider": "dashscope"
+  },
+  "siliconflow": {
+    "name": "硅基流动",
+    "api_base": "https://api.siliconflow.cn/v1",
+    "model": "deepseek-llm-67b-chat",
+    "api_key": "sk-djnltntqdqmcwjhcivuocquyfohdfvwbovogfqiijgdboqpd",
+    "max_tokens": 32768,
+    "provider": "siliconflow"
+  },
+  "baichuan": {
+    "name": "百川大模型",
+    "api_base": "https://api.baichuan-ai.com/v1",
+    "model": "Baichuan2-53B",
+    "max_tokens": 32768,
+    "provider": "baichuan"
+  },
+  "glm": {
+    "name": "智谱GLM",
+    "api_base": "https://open.bigmodel.cn/api/paas/v4",
+    "model": "glm-4",
+    "max_tokens": 8192,
+    "provider": "glm"
+  },
+  "硅基流动": {
+    "name": "硅基流动",
+    "api_base": "https://api.siliconflow.cn/v1",
+    "model": "deepseek-ai/DeepSeek-V3.1",
+    "api_key": "sk-djnltntqdqmcwjhcivuocquyfohdfvwbovogfqiijgdboqpd",
+    "max_tokens": 65536,
+    "provider": "siliconflow"
+  }
+}

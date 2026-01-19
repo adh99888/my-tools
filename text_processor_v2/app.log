@@ -1,0 +1,292 @@
+2026-01-18 19:06:15,286 - ERROR - 配置模块测试失败: cannot import name 'get_config_manager' from 'config' (C:\Users\LQJ\Desktop\text_processor_v2\config\__init__.py)
+2026-01-18 20:09:37,583 - INFO - API配置加载成功
+2026-01-18 20:09:37,584 - INFO - 加载了 7 个模型配置
+2026-01-18 20:09:37,586 - INFO - 已加载 7 个模板
+2026-01-18 20:18:59,710 - INFO - API配置加载成功
+2026-01-18 20:18:59,710 - INFO - 加载了 7 个模型配置
+2026-01-18 20:18:59,711 - INFO - 已加载 7 个模板
+2026-01-18 20:18:59,741 - WARNING - 默认模型 'deepseek-chat' 不存在，使用第一个可用模型
+2026-01-18 20:24:30,433 - INFO - API配置加载成功
+2026-01-18 20:24:30,433 - INFO - 加载了 7 个模型配置
+2026-01-18 20:24:30,445 - INFO - 已加载 7 个模板
+2026-01-18 20:24:30,462 - WARNING - 默认模型 'deepseek-chat' 不存在，使用第一个可用模型
+2026-01-18 20:29:04,108 - INFO - API配置加载成功
+2026-01-18 20:29:04,108 - INFO - 加载了 7 个模型配置
+2026-01-18 20:29:04,109 - INFO - 已加载 7 个模板
+2026-01-18 20:54:28,773 - INFO - API配置加载成功
+2026-01-18 20:54:28,773 - INFO - 加载了 7 个模型配置
+2026-01-18 20:54:28,774 - INFO - 已加载 7 个模板
+2026-01-18 20:54:29,690 - INFO - 已加载 7 个模板
+2026-01-18 20:54:30,051 - INFO - 主窗口初始化完成
+2026-01-18 20:55:11,577 - INFO - 文档加载成功: 济源之美.docx
+2026-01-18 20:55:23,959 - ERROR - 处理线程异常: 'ModelManager' object has no attribute 'get_model_config'
+2026-01-18 21:24:51,742 - INFO - API配置加载成功
+2026-01-18 21:24:51,743 - INFO - 加载了 7 个模型配置
+2026-01-18 21:24:51,744 - INFO - 已加载 7 个模板
+2026-01-18 21:24:51,847 - ERROR - GUI启动失败: expected an indented block after 'except' statement on line 580 (main_window.py, line 581)
+2026-01-18 21:29:48,203 - INFO - API配置加载成功
+2026-01-18 21:29:48,203 - INFO - 加载了 7 个模型配置
+2026-01-18 21:29:48,204 - INFO - 已加载 7 个模板
+2026-01-18 21:29:48,273 - ERROR - GUI启动失败: expected an indented block after 'except' statement on line 580 (main_window.py, line 581)
+2026-01-18 21:48:05,167 - INFO - API配置加载成功
+2026-01-18 21:48:05,168 - INFO - 加载了 7 个模型配置
+2026-01-18 21:48:05,169 - INFO - 已加载 7 个模板
+2026-01-18 21:48:05,270 - ERROR - GUI启动失败: expected an indented block after 'except' statement on line 580 (main_window.py, line 581)
+2026-01-18 21:56:31,025 - INFO - API配置加载成功
+2026-01-18 21:56:31,025 - INFO - 加载了 7 个模型配置
+2026-01-18 21:56:31,026 - INFO - 已加载 7 个模板
+2026-01-18 21:56:32,677 - INFO - 已加载 7 个模板
+2026-01-18 21:56:33,112 - INFO - 主窗口初始化完成
+2026-01-18 21:56:49,998 - INFO - 文档加载成功: 2、修养论.docx
+2026-01-18 21:56:53,330 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 21:56:53,330 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-18 21:58:28,905 - INFO - API调用成功: DeepSeek Chat
+2026-01-18 21:58:41,380 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\修养论_20260118_215841.docx
+2026-01-18 21:59:26,430 - INFO - 文档加载成功: 测试.docx
+2026-01-18 21:59:28,439 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 21:59:28,440 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-18 22:02:19,146 - INFO - API调用成功: DeepSeek Chat
+2026-01-18 22:02:39,757 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\一、核心思想_20260118_220239.docx
+2026-01-18 22:02:47,151 - INFO - 切换到模型: kimi
+2026-01-18 22:02:48,362 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:02:48,363 - INFO - 正在与 kimi-k2 通信...
+2026-01-18 22:03:20,539 - INFO - API调用成功: kimi-k2
+2026-01-18 22:04:53,631 - INFO - 切换到模型: 硅基流动
+2026-01-18 22:04:56,202 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:04:56,202 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:05:56,551 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:06:59,131 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:08:03,787 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:09:04,403 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:09:04,405 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:10:04,915 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:11:07,467 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:12:12,189 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:13:12,760 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:13:12,766 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:14:13,391 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:15:15,991 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:16:20,644 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:17:21,351 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:17:21,352 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:18:21,881 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:19:24,422 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:20:29,134 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:21:29,766 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:21:29,770 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:22:30,355 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:23:32,910 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:24:37,530 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:25:38,006 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:25:38,008 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:26:38,520 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:27:41,170 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:28:45,863 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:29:46,542 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:29:46,543 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:30:47,109 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:31:49,809 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:32:54,488 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:33:55,011 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:33:55,013 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:34:55,529 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:35:58,231 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:37:02,942 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:38:03,556 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:38:03,558 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:39:04,156 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:40:06,787 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:41:11,618 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:42:12,147 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:42:12,147 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:43:12,730 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:44:15,305 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:45:19,959 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:46:20,574 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:46:20,576 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:47:21,128 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:48:23,771 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:49:28,441 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:50:28,992 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:50:28,994 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:51:29,526 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:52:32,193 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:53:36,847 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:54:37,406 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:54:37,407 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:55:38,111 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:56:40,716 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 22:58:44,604 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 22:58:44,606 - INFO - 正在与 硅基流动 通信...
+2026-01-18 22:59:45,187 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:00:47,876 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:01:52,310 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:02:53,022 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:02:53,031 - INFO - 正在与 硅基流动 通信...
+2026-01-18 23:03:53,642 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:04:56,294 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:06:00,836 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:07:01,372 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:07:01,373 - INFO - 正在与 硅基流动 通信...
+2026-01-18 23:08:02,086 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:09:04,831 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:10:09,386 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:11:09,984 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:11:09,985 - INFO - 正在与 硅基流动 通信...
+2026-01-18 23:12:10,589 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:13:13,271 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:14:17,817 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:15:18,330 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:15:18,332 - INFO - 正在与 硅基流动 通信...
+2026-01-18 23:16:19,036 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:17:21,653 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:18:26,272 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:19:26,903 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:19:26,904 - INFO - 正在与 硅基流动 通信...
+2026-01-18 23:20:27,593 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:21:30,269 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:22:34,790 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:23:35,341 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:23:35,343 - INFO - 正在与 硅基流动 通信...
+2026-01-18 23:24:36,038 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:25:38,648 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:27:08,818 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:27:08,819 - INFO - 正在与 硅基流动 通信...
+2026-01-18 23:28:09,411 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:29:12,092 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Read timed out. (read timeout=60)")': /v1/chat/completions
+2026-01-18 23:37:15,002 - INFO - API配置加载成功
+2026-01-18 23:37:15,002 - INFO - 加载了 7 个模型配置
+2026-01-18 23:37:15,004 - INFO - 已加载 7 个模板
+2026-01-18 23:37:15,993 - INFO - 已加载 7 个模板
+2026-01-18 23:37:16,837 - INFO - 主窗口初始化完成
+2026-01-18 23:37:26,901 - INFO - 文档加载成功: 灸道探微隔物灸.docx
+2026-01-18 23:37:42,634 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:37:42,634 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-18 23:37:57,479 - INFO - 文档加载成功: 关于我们.docx
+2026-01-18 23:38:01,595 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:38:01,595 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-18 23:38:09,499 - INFO - API调用成功: DeepSeek Chat
+2026-01-18 23:38:52,847 - INFO - API调用成功: DeepSeek Chat
+2026-01-18 23:49:07,340 - INFO - API配置加载成功
+2026-01-18 23:49:07,340 - INFO - 加载了 7 个模型配置
+2026-01-18 23:49:07,342 - INFO - 已加载 7 个模板
+2026-01-18 23:49:08,176 - INFO - 已加载 7 个模板
+2026-01-18 23:49:08,514 - INFO - 主窗口初始化完成
+2026-01-18 23:49:27,635 - INFO - 文档加载成功: Steam课题评价量表资料.docx
+2026-01-18 23:49:36,186 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:49:36,187 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-18 23:50:11,129 - INFO - API调用成功: DeepSeek Chat
+2026-01-18 23:50:11,130 - INFO - 开始文档后处理优化
+2026-01-18 23:50:11,136 - INFO - Markdown字符清理完成
+2026-01-18 23:50:11,136 - INFO - 段落间距优化完成
+2026-01-18 23:50:11,137 - INFO - 文档后处理优化完成
+2026-01-18 23:50:19,870 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\培智教育生活语文课程标准_20260118_235019.docx
+2026-01-18 23:58:48,792 - INFO - API配置加载成功
+2026-01-18 23:58:48,793 - INFO - 加载了 7 个模型配置
+2026-01-18 23:58:48,794 - INFO - 已加载 7 个模板
+2026-01-18 23:58:49,730 - INFO - 已加载 7 个模板
+2026-01-18 23:58:50,070 - INFO - 主窗口初始化完成
+2026-01-18 23:59:01,115 - INFO - 文档加载成功: 1、灸道论.docx
+2026-01-18 23:59:11,723 - INFO - 开始处理 (尝试 1/4)...
+2026-01-18 23:59:11,723 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 00:00:37,287 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 00:00:37,288 - INFO - 开始文档后处理优化
+2026-01-19 00:00:37,297 - INFO - Markdown字符清理完成
+2026-01-19 00:00:37,299 - INFO - 段落间距优化完成
+2026-01-19 00:00:37,299 - INFO - 文档后处理优化完成
+2026-01-19 00:04:49,778 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\灸道论_20260119_000449.docx
+2026-01-19 00:05:17,239 - INFO - API配置加载成功
+2026-01-19 00:05:17,239 - INFO - 加载了 7 个模型配置
+2026-01-19 00:05:17,240 - INFO - 已加载 7 个模板
+2026-01-19 00:05:18,178 - INFO - 已加载 7 个模板
+2026-01-19 00:05:18,501 - INFO - 主窗口初始化完成
+2026-01-19 00:06:04,793 - INFO - API配置加载成功
+2026-01-19 00:06:04,793 - INFO - 加载了 7 个模型配置
+2026-01-19 00:06:04,794 - INFO - 已加载 7 个模板
+2026-01-19 00:06:06,025 - INFO - 已加载 7 个模板
+2026-01-19 00:06:06,409 - INFO - 主窗口初始化完成
+2026-01-19 00:08:16,436 - INFO - 文档加载成功: Steam课题评价量表资料.docx
+2026-01-19 00:08:22,673 - INFO - 开始处理 (尝试 1/4)...
+2026-01-19 00:08:22,674 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 00:08:54,330 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 00:08:54,331 - INFO - 开始文档后处理优化
+2026-01-19 00:08:54,337 - INFO - Markdown字符清理完成
+2026-01-19 00:08:54,349 - INFO - 段落间距优化完成
+2026-01-19 00:08:54,362 - INFO - 文档后处理优化完成
+2026-01-19 00:09:06,982 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\培智教育生活语文课程标准_20260119_000906.docx
+2026-01-19 00:09:31,979 - INFO - 文档加载成功: 1、灸道论.docx
+2026-01-19 00:09:38,684 - INFO - 开始处理 (尝试 1/4)...
+2026-01-19 00:09:38,684 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 00:11:00,242 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 00:11:00,242 - INFO - 开始文档后处理优化
+2026-01-19 00:11:00,243 - INFO - Markdown字符清理完成
+2026-01-19 00:11:00,244 - INFO - 段落间距优化完成
+2026-01-19 00:11:00,244 - INFO - 文档后处理优化完成
+2026-01-19 00:17:18,103 - INFO - API配置加载成功
+2026-01-19 00:17:18,106 - INFO - 加载了 7 个模型配置
+2026-01-19 00:17:18,107 - INFO - 已加载 7 个模板
+2026-01-19 00:17:18,936 - INFO - 已加载 7 个模板
+2026-01-19 00:17:19,265 - INFO - 主窗口初始化完成
+2026-01-19 00:17:23,214 - INFO - 文档加载成功: 1、灸道论.docx
+2026-01-19 00:17:28,748 - INFO - 开始处理 (尝试 1/4)...
+2026-01-19 00:17:28,748 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 00:18:53,462 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 00:18:53,462 - INFO - 开始文档后处理优化
+2026-01-19 00:18:53,467 - INFO - Markdown字符清理完成
+2026-01-19 00:18:53,468 - INFO - 段落间距优化完成
+2026-01-19 00:18:53,468 - INFO - 文档后处理优化完成
+2026-01-19 00:19:12,374 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\灸道论_20260119_001912.docx
+2026-01-19 00:20:27,691 - INFO - API配置加载成功
+2026-01-19 00:20:27,691 - INFO - 加载了 7 个模型配置
+2026-01-19 00:20:27,692 - INFO - 已加载 7 个模板
+2026-01-19 00:20:28,703 - INFO - 已加载 7 个模板
+2026-01-19 00:20:29,037 - INFO - 主窗口初始化完成
+2026-01-19 00:20:46,761 - INFO - 文档加载成功: 2、修养论.docx
+2026-01-19 00:20:54,690 - INFO - 文档加载成功: 5、艾气论.docx
+2026-01-19 00:21:02,422 - INFO - 开始处理 (尝试 1/4)...
+2026-01-19 00:21:02,423 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 00:21:47,157 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 00:21:47,158 - INFO - 开始文档后处理优化
+2026-01-19 00:21:47,164 - INFO - Markdown字符清理完成
+2026-01-19 00:21:47,164 - INFO - 段落间距优化完成
+2026-01-19 00:21:47,165 - INFO - 文档后处理优化完成
+2026-01-19 00:22:01,839 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\艾气论_20260119_002201.docx
+2026-01-19 00:22:49,644 - INFO - API配置加载成功
+2026-01-19 00:22:49,645 - INFO - 加载了 7 个模型配置
+2026-01-19 00:22:49,646 - INFO - 已加载 7 个模板
+2026-01-19 00:22:50,735 - INFO - 已加载 7 个模板
+2026-01-19 00:22:51,051 - INFO - 主窗口初始化完成
+2026-01-19 00:23:23,222 - INFO - 已加载 7 个模板
+2026-01-19 00:23:23,222 - INFO - 已加载 7 个模板
+2026-01-19 00:23:23,223 - INFO - 已加载 7 个模板
+2026-01-19 00:23:39,300 - INFO - 文档加载成功: 5、艾气论.docx
+2026-01-19 00:23:41,907 - INFO - 开始处理 (尝试 1/4)...
+2026-01-19 00:23:41,908 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 00:24:24,623 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 00:24:24,624 - INFO - 开始文档后处理优化
+2026-01-19 00:24:24,629 - INFO - Markdown字符清理完成
+2026-01-19 00:24:24,629 - INFO - 段落间距优化完成
+2026-01-19 00:24:24,629 - INFO - 文档后处理优化完成
+2026-01-19 00:24:35,625 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\艾气论_20260119_002435.docx
+2026-01-19 09:15:28,714 - INFO - API配置加载成功
+2026-01-19 09:15:28,715 - INFO - 加载了 7 个模型配置
+2026-01-19 09:15:28,718 - INFO - 已加载 7 个模板
+2026-01-19 09:15:29,719 - INFO - 已加载 7 个模板
+2026-01-19 09:15:30,053 - INFO - 主窗口初始化完成
+2026-01-19 09:19:36,373 - INFO - 文档加载成功: Steam课题评价量表资料.docx
+2026-01-19 09:19:38,157 - INFO - 开始处理 (尝试 1/4)...
+2026-01-19 09:19:38,157 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 09:19:49,507 - INFO - 开始处理 (尝试 1/4)...
+2026-01-19 09:19:49,507 - INFO - 正在与 DeepSeek Chat 通信...
+2026-01-19 09:20:10,416 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 09:20:10,421 - INFO - 开始文档后处理优化
+2026-01-19 09:20:10,424 - INFO - Markdown字符清理完成
+2026-01-19 09:20:10,427 - INFO - 段落间距优化完成
+2026-01-19 09:20:10,429 - INFO - 文档后处理优化完成
+2026-01-19 09:20:22,010 - INFO - API调用成功: DeepSeek Chat
+2026-01-19 09:20:22,011 - INFO - 开始文档后处理优化
+2026-01-19 09:20:22,012 - INFO - Markdown字符清理完成
+2026-01-19 09:20:22,012 - INFO - 段落间距优化完成
+2026-01-19 09:20:22,012 - INFO - 文档后处理优化完成
+2026-01-19 09:20:35,398 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\培智教育生活语文课程标准_20260119_092035.docx
+2026-01-19 09:22:34,426 - INFO - 文档保存成功: C:\Users\LQJ\Desktop\text_processor_v2\培智教育生活语文课程标准_20260119_092234.docx

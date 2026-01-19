@@ -1,0 +1,87 @@
+{
+  "name": "工作报告",
+  "description": "企业工作报告格式，层次清晰专业",
+  "page_setup": {
+    "margin_top": 72,
+    "margin_bottom": 72,
+    "margin_left": 90,
+    "margin_right": 90,
+    "paper_size": "A4"
+  },
+  "title": {
+    "font_size": 20,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Arial",
+    "bold": true,
+    "alignment": "center",
+    "space_after": 24,
+    "space_before": 0
+  },
+  "subtitle": {
+    "font_size": 12,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Arial",
+    "color": "#666666",
+    "alignment": "center",
+    "space_after": 30
+  },
+  "heading1": {
+    "font_size": 16,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Arial",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 24,
+    "space_after": 12,
+    "first_line_indent": 0,
+    "numbering": "一、"
+  },
+  "heading2": {
+    "font_size": 14,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Arial",
+    "bold": false,
+    "alignment": "left",
+    "space_before": 18,
+    "space_after": 8,
+    "first_line_indent": 0,
+    "numbering": "（一）"
+  },
+  "heading3": {
+    "font_size": 12,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Arial",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 14,
+    "space_after": 6,
+    "first_line_indent": 0,
+    "numbering": "1."
+  },
+  "body": {
+    "font_size": 10.5,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "justify",
+    "line_spacing": 1.3,
+    "space_before": 0,
+    "space_after": 0,
+    "first_line_indent": 21,
+    "character_spacing": 0
+  },
+  "list_item": {
+    "font_size": 10.5,
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "alignment": "left",
+    "line_spacing": 1.3,
+    "first_line_indent": 0,
+    "bullet_style": "●"
+  },
+  "metadata": {
+    "author": "部门/姓名",
+    "category": "工作报告",
+    "version": "1.0",
+    "confidential": false
+  }
+}

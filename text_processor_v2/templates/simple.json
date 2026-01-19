@@ -1,0 +1,66 @@
+{
+  "name": "简洁现代",
+  "description": "简洁现代风格，适合日常文档",
+  "page_setup": {
+    "margin_top": 72,
+    "margin_bottom": 72,
+    "margin_left": 72,
+    "margin_right": 72,
+    "paper_size": "A4"
+  },
+  "title": {
+    "font_size": 20,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Segoe UI",
+    "bold": true,
+    "alignment": "center",
+    "space_after": 24,
+    "space_before": 0
+  },
+  "heading1": {
+    "font_size": 16,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Segoe UI",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 20,
+    "space_after": 10,
+    "first_line_indent": 0
+  },
+  "heading2": {
+    "font_size": 14,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Segoe UI",
+    "bold": false,
+    "alignment": "left",
+    "space_before": 16,
+    "space_after": 8,
+    "first_line_indent": 0
+  },
+  "heading3": {
+    "font_size": 12,
+    "font_name_cn": "微软雅黑",
+    "font_name_en": "Segoe UI",
+    "bold": true,
+    "alignment": "left",
+    "space_before": 12,
+    "space_after": 6,
+    "first_line_indent": 0
+  },
+  "body": {
+    "font_size": 11,
+    "font_name_cn": "宋体",
+    "font_name_en": "Calibri",
+    "alignment": "left",
+    "line_spacing": 1.25,
+    "space_before": 0,
+    "space_after": 0,
+    "first_line_indent": 0,
+    "character_spacing": 0
+  },
+  "metadata": {
+    "author": "",
+    "category": "日常文档",
+    "version": "1.0"
+  }
+}
