@@ -1,0 +1,74 @@
+apis:
+  deepseek:
+    api_key: sk-e19be2193e024d84af4b1e4ea3c6bdd1
+    base_url: https://api.deepseek.com/v1
+    model: deepseek-chat
+  glm:
+    api_key: ''
+    base_url: https://open.bigmodel.cn/api/paas/v4
+    model: glm-4-flash
+  kimi:
+    api_key: sk-PnGfpmQajXk6Igxp3CBlvcVOJ4WrTPn0nQ9I5tDZwFS2ymsA
+    base_url: https://api.moonshot.cn/v1
+    model: kimi-k2-turbo-preview
+  qwen:
+    api_key: sk-60bfaa05a84c40da96fa2c3ac7db8054
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    model: qwen-vl-max
+  siliconflow:
+    api_key: sk-djnltntqdqmcwjhcivuocquyfohdfvwbovogfqiijgdboqpd
+    base_url: https://api.siliconflow.cn/v1
+    model: deepseek-ai/DeepSeek-OCR
+app:
+  debug: false
+  language: zh
+  name: 屏幕翻译助手增强版
+  theme: dark
+capture:
+  change_detection: false
+  default_region:
+  - 200
+  - 200
+  - 600
+  - 400
+  hotkey: Ctrl+Shift+T
+  mode: smart
+  region_learning: true
+display:
+  auto_hide: false
+  font_size: 12
+  max_width: 800
+  min_width: 400
+  remember_position: true
+  theme: dark
+  width: adaptive
+logging:
+  file: logs/app.log
+  level: INFO
+  max_size_mb: 10
+ocr:
+  auto_language: true
+  languages:
+  - en
+  preprocess: false
+  primary: vision
+  tesseract_path: ''
+  vision:
+    enabled: true
+    provider: qwen  # qwen or deepseek
+    model: qwen-vl-max
+    enable_translation: true
+    max_image_size: 2048
+shortcuts:
+  capture: Ctrl+Shift+T
+  clear: Ctrl+L
+  pause: Ctrl+P
+  settings: Ctrl+,
+  toggle_sidebar: Alt+T
+translation:
+  auto_switch: true
+  cache_enabled: true
+  cache_size: 100
+  fallback: deepseek
+  primary: kimi
+  target_language: zh

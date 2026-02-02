@@ -1,0 +1,54 @@
+# 屏幕翻译助手增强版 - 依赖包
+# 核心依赖
+PyQt5>=5.15.9
+numpy>=1.24.3
+opencv-python>=4.8.1
+Pillow>=10.1.0
+
+# OCR相关
+pytesseract>=0.3.10
+# EasyOCR依赖PyTorch，使用CPU版本以增强兼容性
+torch>=2.0.0 --index-url https://download.pytorch.org/whl/cpu
+easyocr>=1.7.1
+
+# 屏幕捕获与系统交互
+pyautogui>=0.9.54
+keyboard>=0.13.5
+pywin32>=306  # Windows系统API
+pypiwin32>=223
+
+# API客户端
+openai>=1.12.0  # 用于DeepSeek、Kimi等OpenAI兼容API
+dashscope>=1.14.0  # 通义千问
+zhipuai>=2.1.1  # 智谱GLM
+httpx>=0.26.0  # HTTP客户端
+aiohttp>=3.9.1  # 异步HTTP（可选）
+
+# 配置与数据
+PyYAML>=6.0.1
+# SQLAlchemy>=2.0.23  # 数据库缓存（可选）- 与dataset冲突，已移除
+# dataset>=1.6.0  # 简单数据库（可选）- 与SQLAlchemy冲突，已移除
+
+# 开发工具
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.0
+pytest>=7.4.3
+psutil>=5.9.0
+
+# 其他工具
+qdarkstyle>=3.1  # 深色主题
+screeninfo>=0.8.1  # 屏幕信息
+pystray>=0.19.0  # 系统托盘图标（可选）
+
+# Windows特定
+comtypes>=1.1.14  # Windows COM支持
+pywinauto>=0.6.8  # Windows自动化（可选）
+
+# 可选但推荐的依赖
+# 对于更好的OCR性能，建议安装Tesseract Windows二进制文件
+# 下载地址：https://github.com/UB-Mannheim/tesseract/wiki
+# 并设置TESSDATA_PREFIX环境变量指向tessdata目录
+
+# 安装命令：
+# pip install -r requirements.txt
