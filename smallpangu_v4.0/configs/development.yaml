@@ -1,0 +1,100 @@
+# 开发环境配置
+# 继承base.yaml并覆盖开发特定配置
+
+app:
+  log_level: "DEBUG"
+  enable_profiling: true
+  
+  # 开发环境特定配置
+  debug_mode: true
+  hot_reload: true  # 支持热重载
+
+plugins:
+  # 开发环境启用更多插件用于测试
+  enabled:
+    - "ai_providers.deepseek"
+    - "tools.token_counter"
+    - "tools.cost_calculator"
+    - "ui_components.development_ui"  # 开发UI
+  
+  config:
+    auto_reload: true  # 开发环境启用自动重载
+    sandbox_mode: false  # 开发环境关闭沙箱便于调试
+
+event_bus:
+  enable_debug_log: true  # 开发环境启用事件调试
+
+logging:
+  handlers:
+    console:
+      level: "DEBUG"
+      format: "[%(asctime)s] [%(levelname)s] [%(name)s:%(lineno)d] %(message)s"
+    
+    file:
+      level: "DEBUG"
+    
+    # 开发环境添加详细调试日志
+    debug_file:
+      enabled: true
+      level: "DEBUG"
+      filename: "./logs/debug.log"
+      format: "[%(asctime)s] [%(levelname)s] [%(module)s:%(funcName)s:%(lineno)d] %(message)s"
+      max_size_mb: 20
+      backup_count: 10
+
+ai:
+  # 开发环境使用更宽松的限制
+  max_tokens: 2000  # 开发环境限制token数节省成本
+  temperature: 0.9  # 更高的创造性
+  
+  # 开发环境启用更多调试功能
+  enable_debug_log: true
+  log_requests: true  # 记录AI请求和响应
+
+security:
+  # 开发环境降低安全限制便于测试
+  enable_encryption: false  # 开发环境关闭加密便于调试
+  confirm_levels:
+    low_risk: "notification"
+    medium_risk: "notification"  # 简化确认
+    high_risk: "simple"
+  
+  # 开发环境允许更多操作类型
+  allowed_operations:
+    - "file.read"
+    - "file.write"
+    - "file.create"
+    - "file.delete"  # 开发环境允许删除
+    - "command.execute"  # 开发环境允许执行命令
+
+ui:
+  # 开发环境UI配置
+  show_developer_tools: true  # 显示开发者工具
+  enable_inspector: true  # 启用UI检查器
+  
+  # 开发环境窗口设置
+  window_width: 1400
+  window_height: 800
+
+storage:
+  # 开发环境使用文件存储便于清理
+  type: "file"
+  
+  cache:
+    ttl_seconds: 60  # 开发环境缩短缓存时间
+
+metrics:
+  # 开发环境启用详细指标
+  enabled: true
+  
+  exporters:
+    console:
+      enabled: true  # 开发环境控制台输出指标
+    file:
+      enabled: true
+
+# 开发环境特定的测试配置
+testing:
+  enable_mock_providers: true  # 启用模拟AI提供商
+  mock_response_delay: 0.1  # 模拟响应延迟（秒）
+  enable_failure_testing: false  # 是否启用故障测试模式

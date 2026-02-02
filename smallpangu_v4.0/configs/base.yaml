@@ -1,0 +1,161 @@
+# 小盘古4.0基础配置
+# 所有环境共享的配置项
+
+app:
+  name: "小盘古"
+  version: "4.0.0"
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  data_dir: "./data"  # 数据存储目录
+  cache_dir: "./.cache"  # 缓存目录
+  
+  # 性能配置
+  max_workers: 4  # 最大并发工作线程数
+  request_timeout: 30  # API请求超时时间（秒）
+  enable_profiling: false  # 是否启用性能分析
+  
+  # 更新检查
+  check_for_updates: true
+  update_check_interval: 86400  # 检查间隔（秒）
+
+plugins:
+  # 插件搜索路径（按顺序搜索）
+  search_paths:
+    - "./plugins"  # 项目插件目录
+    - "~/.smallpangu/plugins"  # 用户插件目录
+  
+  # 默认启用的插件（插件模块路径）
+  enabled:
+    - "ai_providers.deepseek"  # DeepSeek AI提供商
+    - "tools.token_counter"    # Token计数器
+    - "tools.cost_calculator"  # 成本计算器
+  
+  # 插件配置
+  config:
+    # 全局插件设置
+    auto_reload: false  # 是否自动重载插件文件变化
+    sandbox_mode: true  # 是否启用插件沙箱
+  
+  # 插件加载策略
+  loading_strategy: "lazy"  # eager: 启动时加载, lazy: 使用时加载
+
+event_bus:
+  # 事件总线配置
+  max_queue_size: 1000  # 最大事件队列大小
+  worker_threads: 2     # 事件处理工作线程数
+  enable_debug_log: false  # 是否启用事件调试日志
+
+logging:
+  # 日志配置
+  handlers:
+    console:
+      enabled: true
+      level: "INFO"
+      format: "[%(asctime)s] [%(levelname)s] %(name)s: %(message)s"
+    
+    file:
+      enabled: true
+      level: "DEBUG"
+      format: "[%(asctime)s] [%(levelname)s] [%(module)s:%(lineno)d] %(message)s"
+      filename: "./logs/smallpangu.log"
+      max_size_mb: 10
+      backup_count: 5
+    
+    error_file:
+      enabled: true
+      level: "ERROR"
+      filename: "./logs/error.log"
+      max_size_mb: 5
+      backup_count: 3
+
+ai:
+  # AI通用配置
+  default_provider: "deepseek"  # 默认AI提供商
+  max_tokens: 4000  # 默认最大token数
+  temperature: 0.7  # 默认温度参数
+  top_p: 0.9  # 默认top_p参数
+  
+  # 上下文管理
+  max_context_length: 8000  # 最大上下文长度（token）
+  enable_context_summary: true  # 是否启用上下文摘要
+  summary_threshold: 6000  # 开始摘要的阈值
+  
+  # 模型切换策略
+  switch_strategy: "cost_effective"  # cost_effective, capability_priority, context_priority
+  enable_auto_switch: true  # 是否启用自动切换
+
+security:
+  # 安全配置
+  enable_encryption: true  # 是否启用加密
+  master_key_path: "~/.smallpangu/master.key"  # 主密钥存储路径
+  backup_enabled: true  # 是否启用自动备份
+  max_backup_count: 10  # 最大备份数量
+  
+  # 操作确认级别
+  confirm_levels:
+    low_risk: "notification"  # 仅通知
+    medium_risk: "simple"     # 简单确认
+    high_risk: "detailed"     # 详细确认
+  
+  # 允许的操作类型
+  allowed_operations:
+    - "file.read"
+    - "file.write"
+    - "file.create"
+    # - "file.delete"  # 谨慎开启
+    # - "command.execute"  # 谨慎开启
+
+ui:
+  # UI通用配置
+  framework: "customtkinter"  # UI框架：customtkinter, tkinter, qt (未来支持)
+  theme: "dark"  # dark, light, system
+  language: "zh-CN"  # 界面语言
+  
+  # 窗口配置
+  window_width: 1280
+  window_height: 720
+  min_width: 800
+  min_height: 600
+  
+  # 字体配置
+  font_family: "Microsoft YaHei"
+  font_size: 12
+  
+  # 聊天界面
+  chat_history_limit: 100  # 保留的聊天记录数量
+  auto_scroll: true  # 是否自动滚动
+  markdown_render: true  # 是否渲染Markdown
+
+storage:
+  # 存储配置
+  type: "file"  # file, sqlite, redis (未来支持)
+  
+  # 文件存储配置
+  file:
+    data_dir: "./data"
+    backup_dir: "./backups"
+    
+  # SQLite存储配置
+  sqlite:
+    database_path: "./data/smallpangu.db"
+    
+  # 缓存配置
+  cache:
+    enabled: true
+    max_size_mb: 100
+    ttl_seconds: 3600  # 缓存生存时间
+
+metrics:
+  # 指标收集配置
+  enabled: true
+  export_interval: 60  # 导出间隔（秒）
+  
+  # 导出目标
+  exporters:
+    console:
+      enabled: false
+    file:
+      enabled: true
+      path: "./logs/metrics.log"
+    prometheus:
+      enabled: false
+      port: 9090
