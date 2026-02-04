@@ -1,0 +1,38 @@
+{
+  "name": "书籍章节",
+  "description": "书籍章节排版，适合长篇内容",
+  "page_setup": {
+    "margin_top": 71,
+    "margin_bottom": 71,
+    "margin_left": 108,
+    "margin_right": 72,
+    "paper_size": "A4"
+  },
+  "body": {
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "font_size": 12.0,
+    "line_spacing": 1.4,
+    "first_line_indent": 28.0,
+    "alignment": "justify"
+  },
+  "heading1": {
+    "font_name_cn": "黑体",
+    "font_name_en": "Arial",
+    "font_size": 18.0,
+    "bold": true,
+    "alignment": "left"
+  },
+  "heading2": {
+    "font_name_cn": "楷体",
+    "font_name_en": "Arial",
+    "font_size": 16.0,
+    "bold": false,
+    "alignment": "left"
+  },
+  "metadata": {
+    "author": "用户自定义",
+    "version": "1.0",
+    "create_date": "2026-01-23"
+  }
+}

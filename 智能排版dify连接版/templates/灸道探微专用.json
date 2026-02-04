@@ -1,0 +1,38 @@
+{
+  "name": "灸道探微",
+  "description": "灸道探微专版",
+  "page_setup": {
+    "margin_top": 72,
+    "margin_bottom": 72,
+    "margin_left": 72,
+    "margin_right": 72,
+    "paper_size": "A4"
+  },
+  "body": {
+    "font_name_cn": "宋体",
+    "font_name_en": "Times New Roman",
+    "font_size": 12.5,
+    "line_spacing": 1.4,
+    "first_line_indent": 25.0,
+    "alignment": "justify"
+  },
+  "heading1": {
+    "font_name_cn": "黑体",
+    "font_name_en": "Arial",
+    "font_size": 22.0,
+    "bold": true,
+    "alignment": "left"
+  },
+  "heading2": {
+    "font_name_cn": "黑体",
+    "font_name_en": "Arial",
+    "font_size": 16.0,
+    "bold": true,
+    "alignment": "left"
+  },
+  "metadata": {
+    "author": "用户自定义",
+    "version": "1.0",
+    "create_date": "2026-01-19"
+  }
+}

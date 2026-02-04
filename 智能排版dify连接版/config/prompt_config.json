@@ -1,0 +1,42 @@
+{
+  "version": "1.2",
+  "enabled": true,
+  "features": {
+    "prompt_ui": true,
+    "auto_title": true,
+    "complex_title": true
+  },
+  "title_extraction": {
+    "confidence_threshold": 70,
+    "max_lines_to_scan": 5,
+    "min_title_length": 5,
+    "max_title_length": 100
+  },
+  "templates": {
+    "report": {
+      "name": "工作报告",
+      "prompt": "【工作报告排版指令】请严格识别文档中的标题层级结构：1. 一级标题：如'第一章'、'第一部分'等。2. 二级标题：如'一、'、'第一节'等。3. 三级标题：如'（一）'、'1.'等。4. 固定标题：'摘要'、'引言'、'正文'、'结论'、'附录'等。请将识别结果按'# 标题名'格式组织，确保标题层次清晰。",
+      "description": "工作报告模板专用提示词",
+      "enabled": true,
+      "usage_count": 0,
+      "last_modified": ""
+    },
+    "灸道探微专用": {
+      "name": "灸道探微专用",
+      "prompt": "【灸道探微排版指令】请识别中医养生文档结构：1. 章节标题：如'第一章 经络学说'、'第一部分 理论基础'。2. 小节标题：如'一、穴位定位'、'第一节 常用手法'。3. 子标题：如'（一）主要穴位'、'1.操作要点'。4. 特别标记：'注意：'、'提示：'、'临床案例：'、'病例分析：'等。保持专业术语准确，中医名词不翻译。",
+      "description": "灸道探微专用模板提示词",
+      "enabled": true,
+      "usage_count": 0,
+      "last_modified": ""
+    },
+    "article": {
+      "prompt": "【通用排版指令】请识别文档中的标题结构，按层级关系组织。一级标题使用#，二级标题使用##，三级标题使用###。保持原文档结构完整，不添加额外内容。{document}{title}{requirements}{template}{date}，按要求进行提取，标题提取规则：没有句号结尾的短句，如果在文章的开头，则可以作为整片文章的题目（文章的名称），如果在文章中间，则作为小标题；{title}",
+      "last_modified": "2026-01-23 23:49:59",
+      "usage_count": 4,
+      "name": "标准文章排版",
+      "enabled": true
+    }
+  },
+  "default_prompt": "【通用排版指令】请识别文档中的标题结构，按层级关系组织。一级标题使用#，二级标题使用##，三级标题使用###。保持原文档结构完整，不添加额外内容。",
+  "description": "排版系统提示词优化配置"
+}
