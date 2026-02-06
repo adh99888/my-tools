@@ -1,0 +1,943 @@
+[
+  {
+    "timestamp": "2026-02-03T16:14:12.310276",
+    "old_score": 0.0,
+    "new_score": 50.0,
+    "change_amount": 50.0,
+    "reason": "手动调整",
+    "operation_id": null,
+    "details": {
+      "note": "系统初始化，设置初始信任分50.0"
+    }
+  },
+  {
+    "timestamp": "2026-02-03T16:14:12.310639",
+    "old_score": 50.0,
+    "new_score": 65.75,
+    "change_amount": 15.75,
+    "reason": "L3变更协议成功",
+    "operation_id": "L3_重构创生种子_20250203_164500",
+    "details": {
+      "protocol_level": "L3",
+      "success": true,
+      "importance": "high",
+      "risk_level": "medium",
+      "clarity": "good",
+      "base_change": 7.0,
+      "importance_multiplier": 1.5,
+      "risk_multiplier": 1.0,
+      "clarity_multiplier": 1.5,
+      "total_multiplier": 2.25,
+      "final_change": 15.75
+    }
+  },
+  {
+    "timestamp": "2026-02-04T10:30:00.750519",
+    "old_score": 65.75,
+    "new_score": 70.75,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {
+      "test": true
+    }
+  },
+  {
+    "timestamp": "2026-02-04T10:30:46.560282",
+    "old_score": 70.75,
+    "new_score": 75.75,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {
+      "test": true
+    }
+  },
+  {
+    "timestamp": "2026-02-04T10:31:44.388406",
+    "old_score": 75.75,
+    "new_score": 78.75,
+    "change_amount": 3.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "FIX_TRUST_SYSTEM_UNICODE_20250204",
+    "details": {
+      "note": "修复trust_system测试Unicode编码问题，解决IndentationError风险"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:25:05.753631",
+    "old_score": 78.75,
+    "new_score": 78.75,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:25:05.753981",
+    "old_score": 78.75,
+    "new_score": 84.15,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:26:54.465792",
+    "old_score": 84.15,
+    "new_score": 84.15,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:26:54.466138",
+    "old_score": 84.15,
+    "new_score": 89.55000000000001,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:31:34.639072",
+    "old_score": 89.55000000000001,
+    "new_score": 93.55000000000001,
+    "change_amount": 4.0,
+    "reason": "手动调整",
+    "operation_id": "UPDATE_TEST_SUITE_20250204",
+    "details": {
+      "note": "更新测试套件任务完成，宪法第1条验证"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:38:48.567509",
+    "old_score": 93.55000000000001,
+    "new_score": 95.55000000000001,
+    "change_amount": 2.0,
+    "reason": "手动调整",
+    "operation_id": "GENE_TRIGGER_GUIDE_20250204",
+    "details": {
+      "note": "基因触发指南任务完成，确保基因吸收机制不丢失"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:42:03.337939",
+    "old_score": 95.55000000000001,
+    "new_score": 96.55000000000001,
+    "change_amount": 1.0,
+    "reason": "手动调整",
+    "operation_id": "DASHBOARD_VISUALIZATION_20250204",
+    "details": {
+      "note": "仪表盘可视化任务完成，添加进度条"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:43:29.594474",
+    "old_score": 96.55000000000001,
+    "new_score": 96.55000000000001,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:43:29.595253",
+    "old_score": 96.55000000000001,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:44:08.039553",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:44:08.040018",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:44:15.223638",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:44:15.224964",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:52:23.477093",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T11:52:23.478220",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T12:02:05.749443",
+    "old_score": 96.55,
+    "new_score": 98.55,
+    "change_amount": 2.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "FIX_JSON_LOG_20250204",
+    "details": {
+      "note": "修复JSON日志文件格式错误，恢复系统监控功能",
+      "protocol_level": "L2",
+      "success": true,
+      "constitutional_basis": "宪法第4条（生存优先）"
+    }
+  },
+  {
+    "timestamp": "2026-02-04T12:02:19.036513",
+    "old_score": 98.55,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-04T12:02:28.182298",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T12:02:28.183986",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T12:30:59.480752",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统健康状况",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:02:50.352016",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-04T21:18:44.979431",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-04T21:20:00.157932",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {
+      "test": true
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:21:17.180508",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:21:17.181537",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:33:17.565525",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {
+      "test": true
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:34:07.411836",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:34:07.412743",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:48:05.027677",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:48:05.029236",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:52:01.372426",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T21:52:01.373441",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:18:13.447872",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-04T22:18:13.448751",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-05T00:10:16.607584",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-05T12:46:26.551202",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-05T12:46:26.552228",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-05T14:03:28.222454",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-05T14:57:41.944405",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-05T14:57:41.945305",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-05T15:41:40.784363",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-05T15:41:59.872216",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-05T15:41:59.874277",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-05T15:43:02.517279",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-05T15:56:49.097214",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.0,
+    "reason": "L2操作协议成功",
+    "operation_id": "TEST_001",
+    "details": {}
+  },
+  {
+    "timestamp": "2026-02-05T15:56:52.891572",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-05T15:56:52.894635",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  },
+  {
+    "timestamp": "2026-02-05T17:07:42.228882",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 0.0,
+    "reason": "L1观察协议执行",
+    "operation_id": "protocol_L1观察协议",
+    "details": {
+      "protocol_level": "L1",
+      "success": true,
+      "description": "检查系统状态",
+      "base_change": 0.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 0.0
+    }
+  },
+  {
+    "timestamp": "2026-02-05T17:07:42.231722",
+    "old_score": 100.0,
+    "new_score": 100.0,
+    "change_amount": 5.4,
+    "reason": "L2操作协议成功",
+    "operation_id": "protocol_L2操作协议",
+    "details": {
+      "protocol_level": "L2",
+      "success": true,
+      "description": "创建测试文件",
+      "base_change": 3.0,
+      "multipliers": {
+        "importance": 1.5,
+        "risk": 0.8,
+        "clarity": 1.5,
+        "total": 1.8000000000000003
+      },
+      "actual_change": 5.4
+    }
+  }
+]
