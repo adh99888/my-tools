@@ -1,0 +1,49 @@
+{
+  "goals": [
+    "分析项目结构，找出性能瓶颈",
+    "分析系统性能",
+    "分析项目结构，找出性能瓶颈",
+    "分析系统性能"
+  ],
+  "constraints": [
+    "用户提到'不要'：可能表示约束",
+    "用户提到'不要'：可能表示约束"
+  ],
+  "preferences": [
+    "用户偏好关键词：'喜欢'",
+    "用户偏好关键词：'通常'",
+    "用户偏好关键词：'喜欢'",
+    "用户偏好关键词：'通常'"
+  ],
+  "history": [],
+  "mental_models": [
+    {
+      "user_pattern": "连续交互",
+      "time_gap": "未知"
+    },
+    {
+      "user_pattern": "连续交互",
+      "time_gap": "未知"
+    },
+    {
+      "user_pattern": "连续交互",
+      "time_gap": "未知"
+    },
+    {
+      "user_pattern": "连续交互",
+      "time_gap": "未知"
+    },
+    {
+      "user_pattern": "连续交互",
+      "time_gap": "未知"
+    },
+    {
+      "user_pattern": "连续交互",
+      "time_gap": "未知"
+    },
+    {
+      "user_pattern": "连续交互",
+      "time_gap": "未知"
+    }
+  ]
+}
